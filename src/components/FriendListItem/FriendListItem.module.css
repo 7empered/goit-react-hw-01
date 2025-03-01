@@ -21,6 +21,10 @@
     font-weight: 700;
 }
 
+.friendName {
+    color: black;
+}
+
 .avatar {
     width: 60px;
     height: 60px;

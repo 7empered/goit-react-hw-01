@@ -7,7 +7,7 @@ export default function FriendListItem({ friend }) {
     const { avatar, name, isOnline } = friend;
 
     return (
-        <div className={clsx(css.friendListItem, { [css.online]: isOnline, [css.offline]: !isOnline })}>
+        <div className={css.friendListItem} >
             <img src={avatar} alt={name} width="48" />
             <p className={css.friendName}>{name}</p>
             <p className={clsx({ [css.online]: isOnline, [css.offline]: !isOnline })}>
